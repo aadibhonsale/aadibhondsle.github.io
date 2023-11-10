@@ -8,9 +8,9 @@ $MessageBox = $_POST['message'];
 $Date = $_POST['date'];
 
 if ($Email == " " || $Email == "") {
-    echo "Error";
-    header("Location: 404");
-    die();
+  echo "Error";
+  header("Location: 404");
+  die();
 }
 
 // Forwarding the data to the mail
@@ -63,9 +63,7 @@ $message = "
 </head>
 
 <body>
-  <h2>New Form Submission</h2>
-  <p>Source : Code Coworking <a href='https://joincode.in/JoinCode'>Enrollment Form</a></p>
-
+  <h2>New Contact Form Entry</h2>
   <table class='customers'>
     <th>Field</th>
     <th>Data</th>
@@ -79,7 +77,7 @@ $message = "
     </tr>
     <tr>
       <td>Subject</td>
-      <td><a href='tel:" . $Subject . "'>" . $Subject . "</a></td>
+      <td>" . $Subject . "</td>
     </tr>
     <tr>
       <td>Message</td>
@@ -112,7 +110,7 @@ $result_mail = mail($to, $subject, $message, $header);
 
 // Ending Redirect
 if ($result_db == true && $result_mail == true) {
-    header("Location: index.html");
+  header("Location: index");
 } else {
-    echo "Error: " . mysqli_error($conn);
+  echo "Error: " . mysqli_error($conn);
 }
