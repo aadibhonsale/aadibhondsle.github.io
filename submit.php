@@ -94,7 +94,7 @@ $message = "
 
 ";
 
-$header = "From: noreply@aadibhonsale.github.io \r\n";
+$header = "From: no-reply@joincode.in \r\n";
 
 $header .= "MIME-Version: 1.0 \r\n";
 
@@ -109,7 +109,7 @@ $result_mail = mail($to, $subject, $message, $header);
 // }
 
 // Ending Redirect
-if ($result_db == true && $result_mail == true) {
+if ($result_mail == true) {
   header("Location: index");
 } else {
   echo "Error: " . mysqli_error($conn);
