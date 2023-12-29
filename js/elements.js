@@ -9,9 +9,9 @@ footer = `
 							hi, i’m aadi a enthusiastic artist, photographer and content creator. currently studying architecture at SEA-school of environment and architecture. i love trekking and travelling.
 						</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
 							<!-- <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/aadi.vhs/"><span class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -19,7 +19,7 @@ footer = `
 					<div class="ftco-footer-widget mb-4 ml-md-5">
 						<h2 class="ftco-heading-2">Information</h2>
 						<ul class="list-unstyled">
-							<li><a href="." class="py-2 d-block">Portfolio</a></li>
+							<li><a href="projects.html" class="py-2 d-block">Projects</a></li>
 							<!-- <li><a href="#" class="py-2 d-block">Privacy</a></li> -->
 							<!-- <li><a href="#" class="py-2 d-block">Terms Condition</a></li> -->
 						</ul>
@@ -77,6 +77,7 @@ navbar = `
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
 					<li class="nav-item"><a href="work.html" class="nav-link">Art Work</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 				</ul>
